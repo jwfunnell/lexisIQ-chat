@@ -1,1 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <title>Personal Injury AI Chat</title>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+   <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+   <div class="container">
+       <header>
+           <h1>Personal Injury AI Chat</h1>
+       </header>
+       <div class="chat-container" id="injury-chat">
+           <div class="chat-header">
+               <span class="material-icons">support_agent</span> Personal Injury AI Assistant
+           </div>
+           <div class="chat-messages" id="chat-messages"></div>
+           <div>
+               <div id="chat-form-container" class="hidden">
+                   <form id="chat-form" class="chat-input">
+                       <input type="text" id="message-input" name="message" placeholder="Type your message here..." />
+                       <button type="submit" id="send-button"><span class="material-icons">send</span></button>
+                   </form>
+               </div>
+               <div id="conversation-complete-message" class="hidden">
+                   <p><span class="material-icons" style="color: var(--success-color); vertical-align: middle;">check_circle</span> Thank you for sharing your information. A legal professional will review your case and contact you soon.</p>
+               </div>
+           </div>
+       </div>
+   </div>
+   <script src="script.js"></script>
+</body>
+</html>
 
