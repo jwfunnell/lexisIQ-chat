@@ -1,7 +1,7 @@
 <script>
 document.addEventListener('DOMContentLoaded', function() {
    // Configuration - Update this with your actual API endpoint
-   const API_ENDPOINT = 'WE WILL REPLACE WITH ENDPOINT';
+   const API_ENDPOINT = 'https://your-api-endpoint.com/submit'; // TODO: Replace with actual endpoint
   
    // Chat elements
    const chatMessages = document.getElementById('chat-messages');
