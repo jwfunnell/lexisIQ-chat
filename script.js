@@ -1,7 +1,7 @@
 <script>
 document.addEventListener('DOMContentLoaded', function() {
    // Configuration - Update this with your actual API endpoint
-   const API_ENDPOINT = 'https://lexisiq-intake-821484647037.us-east1.run.app/chat';
+   const API_ENDPOINT = 'https://lexisiq-intake-821484647037.europe-west1.run.app/chat';
   
    // Chat elements
    const chatMessages = document.getElementById('chat-messages');
